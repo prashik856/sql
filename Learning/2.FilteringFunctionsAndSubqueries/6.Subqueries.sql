@@ -21,6 +21,7 @@ select firstname, salary from employees where salary > 3100 order by salary desc
 /*
 Subqueries:
 A single subquery will return the same result more easily.
+We need to enclose the subquery in parentheses.
 */
 select firstName, salary from employees where salary > (select avg(salary) from employees) order by salary desc;
 
