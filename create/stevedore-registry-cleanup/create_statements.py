@@ -31,8 +31,7 @@ for key in unique_ri_id.keys():
 
 
 # We get null ri after running our sql statements
-null_ri_ids = ["db52a2caf59f4a038d911595634d541f",
-               "a763e558601f409098e4baf611a9fff6"]
+null_ri_ids = ["ecdf0cb8cb08417a87edf2ed4b9bf554"]
 
 
 # Get the ri_id of resources which have these null_ri as a reference to them
